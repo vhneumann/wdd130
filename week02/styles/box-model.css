@@ -1,15 +1,24 @@
 .callout {
-	
+    align-self: center;
+    max-width: 70%;
+    background-color: #003366;
 }
 
 .callout img {
-	
+	margin: 1em;
 }
 
 blockquote {
-	
+    box-sizing: border-box;
+    font-family: "Times-New-Roman, Arial";
+    font-size: 1.25em;
+    border-bottom-style: dotted;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+	color: #FFFFFF;
 }
 
 cite {
-	
+	color: #FFFFFF;
+    text-align: right;
 }
