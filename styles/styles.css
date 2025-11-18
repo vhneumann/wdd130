@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -35,15 +41,17 @@ main img    {
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
     padding: 1rem;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 aside   {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    /* margin: 1rem; */
+    /* border: 1px solid rgb(0 0 0 / 0.2); */ /* 1 */
+    /* padding: 1rem; */
+    /* background-color: #eee; */
+    /* color: #333; */
     text-align: center;
 }
 
@@ -52,11 +60,34 @@ aside img{
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+
 footer  {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
+/* Class Selectors below */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: beige;
+    color: darkslategray;
+}
+
+/*
+.profile {
+    float: right;
+}
+*/
+
+/* Footnotes below */
 /* 1 */
 /* The border color uses the preferred rgb color method in order to take advantage of a subtle, transparent border effect. The RGB value consists of four values: red, green, blue, and alpha. The first three values (0, 0, 0) represent black, and the last value, .2 (20%) represents the alpha or opacity of the color. An alpha value of .2 means that the color is mostly transparent, allowing the background to show through. By using this border color, the border appears very light and barely noticeable, while still providing a subtle visual cue that helps to separate elements on a webpage. Additionally, it can help to add a layer of visual interest to the design without being overly distracting or detracting from the overall layout. */
