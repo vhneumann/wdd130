@@ -27,7 +27,7 @@ header {
 */
 
 header, main, footer {
-    width: 90%;
+    width: 840px;
     margin: 0 auto;
 }
 
