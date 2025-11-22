@@ -31,6 +31,14 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header img {
+    padding: 1rem;
+}
+
+header nav {
+    padding: 2rem;
+}
+
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
@@ -38,6 +46,12 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: auto;
+    margin: 0 8px;
 }
 
 .hero {
@@ -48,6 +62,12 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 96px;
+    margin: 0px;
 }
 
 h1, h2 {
@@ -62,7 +82,7 @@ h1 {
     margin: 0;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 0.5em;
     text-align: center;
     opacity: 0.7;
     color: #fff; /* White text - make sure there is enough contrast with the background-color */   
@@ -71,7 +91,8 @@ h1 {
 h2 {
     width: 100%;
     margin: 0;
-    padding: 1rem;
+    padding: 0.5em;
+    border: 0;
 }
 
 article {
@@ -86,8 +107,3 @@ article {
     color: #fff; /* White text - make sure there is enough contrast with the background-color */   
 }
 
-.hero article img {
-    float: right;
-    width: 96px;
-    margin: 0px;
-}
