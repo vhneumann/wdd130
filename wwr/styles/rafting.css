@@ -101,7 +101,7 @@ article {
     left: 0;
     margin-left: 16px;
     margin-right: 16px;
-    text-align: justified;
+    text-align: left;
     opacity: 0.85;
     background-color: var(--accent1-color);
     color: #fff; /* White text - make sure there is enough contrast with the background-color */   
