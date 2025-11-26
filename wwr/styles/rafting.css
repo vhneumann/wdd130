@@ -19,12 +19,11 @@ body {
     color: var(--accent1-color);
 }
 
-/*
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
 }
-*/
 
 header, main, footer {
     width: 840px;
@@ -33,10 +32,19 @@ header, main, footer {
 
 header img {
     padding: 1rem;
+    grid-column: 1;
 }
 
 header nav {
     padding: 2rem;
+}
+
+header nav ul li {
+    flex: 1 1 auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
 }
 
 nav, p, section, article {
@@ -110,3 +118,53 @@ article {
     color: #000; /* Black text - make sure there is enough contrast with the background-color */   
 }
 
+figure {
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+/* Class declarations */
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+#box1 {
+}
+
+#box2 {
+}
+
+#box3 {
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
