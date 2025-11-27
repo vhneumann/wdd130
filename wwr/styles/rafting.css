@@ -52,6 +52,11 @@ nav, p, section, article {
     padding: 8px;
 }
 
+.socialmedia {
+    position: absolute;
+    right: 100px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -128,6 +133,7 @@ figcaption {
 }
 
 footer {
+    position: relative;
     border: 1px solid red;
     text-align: center;
 }
