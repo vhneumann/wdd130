@@ -132,7 +132,7 @@ figcaption {
 }
 
 footer {
-	border: 1px solid red;
+	border: none;
 	display:flex;
 	flex-direction: row;
 	align-items: center;
@@ -140,7 +140,7 @@ footer {
 }
 
 footer p {
-    margin-left: 12rem;
+    margin-left: 11rem;
 }
 
 
