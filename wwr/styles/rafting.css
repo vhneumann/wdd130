@@ -14,7 +14,7 @@
 }
 
 body {
-    /* font-size: 16px; */
+    font-size: 16px;
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
@@ -53,8 +53,6 @@ nav, p, section, article {
 }
 
 .socialmedia {
-    position: absolute;
-    right: 100px;
 }
 
 .socialmedia a {
@@ -80,6 +78,7 @@ nav, p, section, article {
 .hero article {
     position: absolute;
 }
+
 .hero article img {
     float: right;
     width: 96px;
@@ -133,10 +132,18 @@ figcaption {
 }
 
 footer {
-    position: relative;
-    border: 1px solid red;
-    text-align: center;
+	border: 1px solid red;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
 }
+
+footer p {
+    margin-left: 12rem;
+}
+
+
 
 /* Class declarations */
 
