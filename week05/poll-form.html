@@ -4,27 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Table</title>
-    <link href="styles/table.css" rel="stylesheet">
+    <title>My First Form</title>
+    <link href="styles/" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <h1>
+            WDD 130 | HTML Form - User Poll
+        </h1>
 
     </header>
 
     <main>
-        <form>
-            <label for=""></label>
-            <input type="text">
-
-            <label for=""></label>
-            <input type="text">
-        </form>
+        <div>
+            <p>Contact Information</p>
+            <form>
+                <div>
+                    <label for="fullname">Full Name:&nbsp;<input type="text" id="fullname" name="fullname"
+                            required></label>
+                </div>
+                <div><label for="useremail">Email:&nbsp;</label>
+                    <input type="text" id="useremail" name="useremail" required>
+                </div>
+                <div>
+                    <label for="browser">What is your favorite Internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="firefox">Firefox</option>
+                        <option value="brave">Brave</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="palemoon">Pale Moon</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet"></input>
+                </div>
+                <div>
+                    <label for="feedback">List the places you have lived</label>
+                    <textarea id="feedback" name="feedback"
+                        placeholder="Far Far Away Land, Eriador Middle-earth, Salabut Indonesia" rows="4"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit Poll</button>
+                </div>
+            </form>
+        </div>
 
     </main>
 
     <footer>
+        <p>
+            &copy; 2025 |HTML Form - User Poll Activity | Victor Neumann
+        </p>
 
     </footer>
 
