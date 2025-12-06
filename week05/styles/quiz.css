@@ -22,15 +22,17 @@ form {
     padding: 1rem;
 }
 
-ol {
-    margin: 0 auto;
-}
-
-input, textarea, select, button {
+label, input, textarea, select, button {
+    display: block;
     width: 400px;
     border: 1px solid rgb(0 0 0 /0.5);
-    margin: 0.75rem auto;
+    margin: 5px auto 20px auto;
     padding: 0.25rem;
+}
+
+label {
+    border: none;
+    margin-bottom: 5px;
 }
 
 textarea {
