@@ -5,10 +5,54 @@
 }
 
 body {
+    max-width: 500px;
+    margin: 0 auto;
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
 }
 
-input {
-    border: 1px solid black;
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    background-color: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+ol {
+    margin: 0 auto;
+}
+
+input, textarea, select, button {
+    width: 400px;
+    border: 1px solid rgb(0 0 0 /0.5);
+    margin: 0.75rem auto;
+    padding: 0.25rem;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+pre {
+    /* width: 250px; */
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: #444;
+    color: #eee;
+    width: 300px;
+}
+
+button {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    color: #eee;
+    background-color: navy;
+    font-weight: 700;
 }
