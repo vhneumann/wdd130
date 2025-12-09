@@ -138,56 +138,10 @@ footer {
 }
 
 footer p {
-    margin-left: 11rem;
+    margin-left: 5rem;
 }
 
-form {
-    width: 100%;
-    background-color: #fff;
-    margin: 0 auto;
-    padding: 0;
-    display: grid;
-    font-size: 0.8rem;
-}
 
-label, input, textarea, select, button {
-    display: block;
-    width: 100%;
-    border: 1px solid rgb(0 0 0 /0.5);
-    border-radius: 3px;
-    margin: 5px auto 20px auto;
-    padding: 0.25rem;
-}
-
-label {
-    border: none;
-    text-align: right;
-    padding-right: 1rem;
-}
-
-textarea {
-    vertical-align: top;
-}
-
-pre {
-    /* width: 250px; */
-    margin: 0.75rem auto;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-    font-weight: 700;
-    background-color: #444;
-    color: #eee;
-    width: 300px;
-}
-
-button {
-    display: block;
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    color: #eee;
-    background-color: navy;
-    font-weight: 700;
-}
 /* Class declarations */
 
 .grid {
@@ -205,6 +159,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.container iframe {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .box {
@@ -212,7 +174,8 @@ button {
     padding: 0;
     width: 100%;
     font-size: 1rem;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
+    border: none;
 }
 
 .box img {
@@ -261,17 +224,67 @@ button {
     color: #000;
 }
 
+.plain {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Form CSS starts here */
+
+form {
+    margin: 1rem;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0;
+    margin: 0;
+    border: none;
+    padding: 0.2rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+    border-radius: 0.25rem;
+}
+
+
+input, select, textarea {
+    padding: 0.25rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
 .form-item {
     display: grid;
     align-items: center;
+    text-align: left;
 }
 
 .column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
+    grid-template-columns: 1fr 4fr;
+    margin: 0.1rem 0;
 }
 
 .column2 {
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     margin: 0.5rem 0;
 }
+
+.required::before {
+    content: '* ';
+    color: red;
+    font-weight: 900;
+}
+
+/* Form CSS ends here */
