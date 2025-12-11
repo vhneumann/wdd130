@@ -83,6 +83,24 @@ nav, p, section, article {
     margin: 0px;
 }
 
+.hero form {
+    position: absolute;
+    top: 20%;
+    bottom: 30%;
+    left: 40%;
+    width: 50%;
+    /* background-color: rgb(100 150 200 /0.6); */
+    background-color: rgb(51 51 51 /0.7);
+    padding: 0.5rem;
+    border: 3px solid rgb(204 230 230 /0.4);
+    border-radius: 0.25rem;
+    color: #ccc;
+}
+
+.hero legend {
+    text-align: center;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     background-color: var(--accent1-color);
