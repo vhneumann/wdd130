@@ -85,8 +85,8 @@ nav, p, section, article {
 
 .hero form {
     position: absolute;
-    top: 30%;
-    bottom: 20%;
+    top: 20%;
+    bottom: 10%;
     left: 40%;
     width: 50%;
     /* background-color: rgb(100 150 200 /0.6); */
@@ -168,7 +168,7 @@ footer p {
     line-height: 1.3rem;
     text-align: end;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .quote-author {
@@ -176,8 +176,13 @@ footer p {
     padding: 0.2rem;
     text-align: end;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-style: oblique;
+}
+
+.light-link {
+    color: azure;
+    font-weight: 700;
 }
 
 .grid {
