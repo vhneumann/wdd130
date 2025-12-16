@@ -101,7 +101,7 @@ nav, p, section, article {
     text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: var(--heading-font);
     background-color: var(--accent1-color);
     color: #fff;
@@ -162,6 +162,24 @@ footer p {
 
 /* Class declarations */
 
+.quote-text {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    line-height: 1.3rem;
+    text-align: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.quote-author {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    text-align: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    font-style: oblique;
+}
+
 .grid {
     display: grid;
     align-items: center;
@@ -186,10 +204,7 @@ footer p {
     border: none;
 }
 
-.trips_offering {
-    margin: 0;
-    display: grid;
-}
+
 
 .box {
     margin: 0;
@@ -251,6 +266,13 @@ footer p {
     color: #000;
 }
 
+.left-border-green {
+    text-align: left;
+    margin: 0.5rem 2rem ;
+    padding: 0.1rem 1rem;
+    border-left: 0.2rem solid green;
+}
+
 /* Form CSS starts here */
 
 form {
@@ -270,6 +292,12 @@ label, input, button, select, textarea {
     font-size: 0.9rem;
     margin: 0.2rem 0;
     border-radius: 0.25rem;
+}
+
+legend {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 0.9rem;
+    margin: 1rem 0;
 }
 
 
@@ -293,6 +321,12 @@ input[type="checkbox"] {
     text-align: left;
 }
 
+.trips-item {
+    display: grid;
+    align-items: center;
+    text-align: left;
+}
+
 .column1 {
     grid-template-columns: 1fr 4fr;
     margin: 0.1rem 0;
@@ -304,7 +338,7 @@ input[type="checkbox"] {
 }
 
 .column3 {
-    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-columns: 4fr 3fr 2fr;
     margin: 0.5rem 0;
 }
 
