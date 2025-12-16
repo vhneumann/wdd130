@@ -240,6 +240,14 @@ footer p {
     margin-right: auto;
 }
 
+.center-over-image {
+    position: absolute;
+    width: 600px;
+    left: 10%;
+    top: 40%;
+    border: 5px solid rgb(204 230 230 /0.4);
+}
+
 .contact_info {
     display: block;
     margin: 0.5rem auto;
